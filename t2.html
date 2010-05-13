@@ -1,0 +1,19 @@
+<html>
+<head>
+<title></title>
+<script type="text/javascript" src="line.js"></script>
+<script type="text/javascript" src="point.js"></script>
+<script type="text/javascript" src="line.segment.js"></script>
+<script type="text/javascript">
+window.onload = function() {
+   var l1 = Line.fromPoints(0, 1, 6, 4);
+   var l2 = Line.fromPoints(3, 6, 5, 0);
+   var p = l1.getIntersectionPoint(l2);
+   alert(p.toString());
+};
+</script>
+</head>
+<body>
+</body>
+</html>
+
